@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Bebas+Neue&family=Bree+Serif&family=Stick+No+Bills:wght@400;500;700&display=swap');
+
+/* RESET */
+.body {
+    overflow-x: hidden;
+    background-image: url(../IMAGENES/estadiomonumental.webp);
+    background-size: cover;
+    width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+/* HEADER */
+ul {
+    text-decoration: none;
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+    color: black;
+    font-size: 2rem;
+}
+.tit {
+    color: red;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 5rem;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.logo { 
+    width: 100px;
+}
+.escudo:hover {
+    transform: scaleX(1.13);
+    transition: 1s;
+}
+.btnHead {
+    background-color: red;
+    border-color: black;
+}
+.link:hover {
+    transform: translateY(10px);
+    transition: transform 1s;
+}
+/* MAIN */
+h2,
+h3 {
+    font-family: 'Stick No Bills', sans-serif;
+    color: white;
+}
+h4 {
+    font-family: 'Bebas Neue', cursive;
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+    color: red;
+}
+.mas {
+    color: red;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.btnCard {
+    background-color: red;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 2rem;
+}
+.h2 {
+    margin-top: 50px;
+    border: black;
+    font-size: 3.5rem;
+    background-color: red;
+    width: 90%;
+    text-align: center;
+}
+/* MAIN COPALIBERTADORES */
+.art {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+.pCopa {
+    background-color: white;
+    width: 45vw;
+    text-align: center;
+    height: auto;
+}
+.imgLali {
+    width: 100vh;
+}
+/* MAIN NOSOTROS */
+.titNos {
+    font-size: 3rem;
+    text-align: center;
+    background-color: red;
+    margin-top: 10px;
+}
+.imgNos {
+    width: 100%;
+    text-align: center;
+}
+.pNos {
+    background-color: red;
+    color: white;
+}
+.form {
+    width: 50vw;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.titForm {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+    color: red;
+    box-sizing: border-box;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 2rem;
+    border: none;
+    font-family: 'Bebas Neue', cursive;
+    }
+.btnForm {
+    background-color: red;
+    color: white;   
+    font-size: 4rem;
+    padding: 10px;
+}
+textarea {
+    min-height: 150px;
+    max-height: 300px;
+}
+
+/* FOOTER */
+.titPie {
+    color: red;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.pie {
+    background-color: rgba(255, 255, 255, 0.795);
+}
+.pieRrss {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    margin-bottom: 0;
+    justify-content: space-evenly;
+}
+.btnPie{
+    width: 50%;
+}
+.rrss:hover {
+    transform: translateY(-10px);
+    transition: transform 1s;
+}
