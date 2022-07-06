@@ -96,7 +96,7 @@ p {
 }
 .pCopa {
     background-color: white;
-    width: 45vw;
+    width: auto;
     text-align: center;
     height: auto;
 }
